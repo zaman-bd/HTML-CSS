@@ -1,0 +1,80 @@
+#menu li{
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    background: none;
+    padding: 10px;
+}
+#menu li a:hover{
+    background: rebeccapurple ;
+}
+
+h1{
+    color:rgb(38, 255, 0);
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 20px groove tomato;
+    border-radius: 15px;
+    height: 70px;
+    width: 200px;
+}
+h1:hover{
+    color: wheat;
+}
+
+body{
+    background-image: url("images./bg.jpg");
+}
+#za{color: aqua;
+    font-size: 20px;
+}
+
+.kh{color: chartreuse;
+    font-size: 20px;
+}
+.man{background-color: rgb(200, 67, 234);
+    color: chartreuse;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.img2{
+    margin-top: 270px;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    padding-top: 70px;
+  }
+
+  .wordrap{
+    border: 10px solid red;
+    width: 100%;
+    height: 100px;
+    overflow: scroll;
+  }
+
+  .efect{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    transition: 5s;
+
+  }
+  .efect:hover{
+    width: 100%;
+    height:100px ;
+    background-color: aqua;
+
+}
+  
